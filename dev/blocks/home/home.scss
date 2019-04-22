@@ -1,0 +1,55 @@
+.home{
+    .activity__body{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+    }    
+
+    &-block{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border: 1px solid rgba(#111, 0.4);
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    &-row{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        span{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+
+    h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    &-act{
+        background: rgba(#ccc, 0.3);
+        padding: 20px;
+        margin-top: 20px;
+        padding-bottom: 0;
+    }
+    &-about{
+        display: flex;
+        flex-direction: column;
+        span{
+            margin-bottom: 4px;
+        }
+
+        a{
+            color: $active;
+        }
+    }
+}
